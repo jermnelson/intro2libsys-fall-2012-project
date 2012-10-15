@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title></mods:title>
+    <mods:title>Kemble, Charles. (1775-1836)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart></mods:namePart>
+    <mods:namePart>Kemble, Charles</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -22,20 +22,11 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart> </mods:namePart>
+     <mods:namePart>Kemble, Charles. (1775-1836)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
-  <mods:topic>autograph (handwritten) letter</mods:topic>
- </mods:subject>
- <mods:subject>
-  <mods:topic>autograph letter, signed</mods:topic>
- </mods:subject>
- <mods:subject>
   <mods:topic>document, signed</mods:topic>
- </mods:subject>
- <mods:subject>
-  <mods:topic>manuscript</mods:topic>
  </mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
@@ -44,8 +35,8 @@
       <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
    </mods:languageOfCataloging>
    <mods:recordOrigin>
-    Originally cataloged in MODS by 
+    Originally cataloged in MODS by Brian Shoemaker
    </mods:recordOrigin>
-   <mods:recordCreationDate></mods:recordCreationDate>
+   <mods:recordCreationDate>October 15, 2012</mods:recordCreationDate>
  </mods:recordInfo>
 </mods:mods>
