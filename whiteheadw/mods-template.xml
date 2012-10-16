@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+ <mods:titleInfo>
+    <mods:title>Whitehead, William. (1715-1785)</mods:title>
+ </mods:titleInfo>
+ <mods:name type="personal">
+    <mods:namePart>Whitehead, William</mods:namePart>
+    <mods:role>
+      <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
+    </mods:role>
+ </mods:name>
+ <mods:abstract>
+   This letter is part of the Alice Bemis Taylor (1877-1942), the first woman trustee 
+   of Colorado College, collection of manuscripts and letters of British and American poets and 
+   writers.
+ </mods:abstract>
+ <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
+ <mods:physicalDescription>
+    <mods:reformattingQuality>access</mods:reformattingQuality>
+    <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+    <mods:note></mods:note>
+ </mods:physicalDescription>
+ <mods:subject>
+    <mods:name type="personal">
+     <mods:namePart>Whitehead, William. (1715-1785)</mods:namePart>
+    </mods:name>
+ </mods:subject>
+ <mods:subject>
+ <mods:subject>
+  <mods:topic>autograph letter, signed</mods:topic>
+ </mods:subject>
+ <mods:subject>
+ <mods:subject>
+ </mods:subject>
+ <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
+ <mods:recordInfo>
+   <mods:languageOfCataloging>
+      <mods:languageTerm authority="iso639-2b" type="text">English</mods:languageTerm>
+      <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+   </mods:languageOfCataloging>
+   <mods:recordOrigin>
+    Originally cataloged in MODS by Eric Ziecker</mods:recordOrigin>
+   <mods:recordCreationDate>October 11, 2012</mods:recordCreationDate>
+ </mods:recordInfo>
+</mods:mods>
