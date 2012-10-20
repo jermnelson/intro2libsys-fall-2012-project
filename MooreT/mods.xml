@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title>Allen, Grant. (1848-1899)</mods:title>
+    <mods:title>Moore, Thomas, (1779-1852)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart>Allen, Grant</mods:namePart>
+    <mods:namePart>Moore, Thomas</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -22,14 +22,11 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart>Allen, Grant. (1848-1899)</mods:namePart>
+     <mods:namePart>Moore, Thomas, (1779-1852)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
   <mods:topic>autograph letter, signed</mods:topic>
- </mods:subject>
- <mods:subject>
-  <mods:topic>manuscript</mods:topic>
  </mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
@@ -40,6 +37,6 @@
    <mods:recordOrigin>
     Originally cataloged in MODS by Christine Coughlan
    </mods:recordOrigin>
-   <mods:recordCreationDate>October 8, 2012</mods:recordCreationDate>
+   <mods:recordCreationDate>October 14, 2012</mods:recordCreationDate>
  </mods:recordInfo>
 </mods:mods>
