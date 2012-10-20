@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title>Coleridge, Samuel Taylor. (1772-1834)</mods:title>
+    <mods:title>Hannay, James. (1827-1873)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart>Coleridge, Samuel Taylor</mods:namePart>
+    <mods:namePart>Hannay, James</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -22,14 +22,12 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart>Coleridge, Samuel Taylor. (1772-1834)</mods:namePart>
+     <mods:namePart>Hannay, James. (1827-1873)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
+  <mods:topic>autograph letter, signed</mods:topic>
  </mods:subject>
- <mods:subject>
- </mods:subject>
- <mods:subject>
  <mods:subject>
   <mods:topic>manuscript</mods:topic>
  </mods:subject>
@@ -40,7 +38,7 @@
       <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
    </mods:languageOfCataloging>
    <mods:recordOrigin>
-    Originally cataloged in MODS by Eric Ziecker</mods:recordOrigin>
-   <mods:recordCreationDate>October 10, 2012</mods:recordCreationDate>
+    Originally cataloged in MODS by Eric Ziecker.</mods:recordOrigin>
+   <mods:recordCreationDate>October 10,2012</mods:recordCreationDate>
  </mods:recordInfo>
 </mods:mods>

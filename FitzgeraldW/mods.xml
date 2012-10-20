@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title>Chambers, Robert. (1802-1871)</mods:title>
+    <mods:title>Fitzgerald, William Thomas. (1759-1829)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart>Chambers, Robert.</mods:namePart>
+    <mods:namePart>Fitzgerald, William Thomas.</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -22,15 +22,15 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart>Chambers, Robert. (1802-1871)</mods:namePart>
+     <mods:namePart>Fitzgerald, William Thomas. (1759-1829)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
- <mods:subject>
-  <mods:topic>autograph letter, signed</mods:topic>
+  <mods:topic>autograph (handwritten) letter</mods:topic>
  </mods:subject>
  <mods:subject>
- <mods:subject>
+  <mods:topic>manuscript</mods:topic>
+ </mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
    <mods:languageOfCataloging>
@@ -38,7 +38,7 @@
       <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
    </mods:languageOfCataloging>
    <mods:recordOrigin>
-    Originally cataloged in MODS by Eric Ziecker</mods:recordOrigin>
-   <mods:recordCreationDate>October 11, 2012</mods:recordCreationDate>
+    Originally cataloged in MODS by Eric Ziecker.</mods:recordOrigin>
+   <mods:recordCreationDate>October 10, 2012</mods:recordCreationDate>
  </mods:recordInfo>
 </mods:mods>

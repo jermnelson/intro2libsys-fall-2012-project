@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title>Baillie, Joanna. (1762-1851)</mods:title>
+    <mods:title>Marvell, Andrew. (1621-1678)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart>Baillie, Joanna</mods:namePart>
+    <mods:namePart>Marvell, Andrew</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
@@ -22,15 +22,12 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart>Baillie, Joanna. (1762-1851)</mods:namePart>
+     <mods:namePart>Marvell, Andrew. (1621-1678)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
- <mods:subject>
   <mods:topic>autograph letter, signed</mods:topic>
  </mods:subject>
- <mods:subject>
- <mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
    <mods:languageOfCataloging>
