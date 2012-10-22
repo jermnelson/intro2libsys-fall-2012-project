@@ -3,15 +3,20 @@
 """
 import os,sys,urllib,urllib2
 import xml.etree.ElementTree as etree
+import eulfedora.server
+import local_settings as settings
 
 MODS_NS = 'http://www.loc.gov/mods/v3'
 
-
+repository = eulfedora.server.Repository(settings.FEDORA_ROOT,
+                                         username=settings.FEDORA_USER,
+                                         password=settings.FEDORA_PASSWORD)
 
 def add_subject(mods,**kwargs):
     new_subject = etree.SubElement(mods,"{0}subject".format(MODS_NS))
     if kwargs.has_key("topic"):
         new_topic = etree.SubElement(new_subject,"{0}topic".format(MODS_NS))
+        new_subject.
         
 
 def update_abstract(mods,new_text):
