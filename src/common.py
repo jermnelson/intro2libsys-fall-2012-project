@@ -16,7 +16,6 @@ def add_subject(mods,**kwargs):
     new_subject = etree.SubElement(mods,"{0}subject".format(MODS_NS))
     if kwargs.has_key("topic"):
         new_topic = etree.SubElement(new_subject,"{0}topic".format(MODS_NS))
-        new_subject.
         
 
 def update_abstract(mods,new_text):
