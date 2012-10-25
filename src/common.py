@@ -12,10 +12,14 @@ repository = eulfedora.server.Repository(settings.FEDORA_ROOT,
                                          username=settings.FEDORA_USER,
                                          password=settings.FEDORA_PASSWORD)
 
+
+    
+
 def add_subject(mods,**kwargs):
     new_subject = etree.SubElement(mods,"{0}subject".format(MODS_NS))
     if kwargs.has_key("topic"):
         new_topic = etree.SubElement(new_subject,"{0}topic".format(MODS_NS))
+
         
 
 def update_abstract(mods,new_text):
@@ -27,7 +31,8 @@ def update_abstract(mods,new_text):
     abstract.text = new_text
                 
     pass
-    
+
+
 
 def validate_mods(**kwargs):
     """
