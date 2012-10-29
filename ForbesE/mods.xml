@@ -10,9 +10,7 @@
     </mods:role>
  </mods:name>
  <mods:abstract>
-   This letter is part of the Alice Bemis Taylor (1877-1942), the first woman trustee 
-   of Colorado College, collection of manuscripts and letters of British and American poets and 
-   writers.
+   This item is part of the Alice Bemis Taylor Collection of Autographs (Ms 0145). Taylor (1877-1942) was the first woman trustee of Colorado College.
  </mods:abstract>
  <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
  <mods:physicalDescription>
@@ -27,6 +25,9 @@
  </mods:subject>
  <mods:subject>
   <mods:topic>autograph letter, signed</mods:topic>
+ </mods:subject>
+ <mods:subject>
+  <mods:topic>image of author</mods:topic>
  </mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
