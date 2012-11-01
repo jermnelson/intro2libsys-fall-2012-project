@@ -5,7 +5,7 @@ import urllib,urllib2,urlparse
 import xml.etree.ElementTree as etree
 
 from jinja2 import Template
-from local_settings import COLLECTION_PID,FEDORA_ROOT
+from local_settings import COLLECTION_PID,FEDORA_ROOT,FEDORA_USER
 
 RELS_EXT = '''<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
@@ -23,10 +23,15 @@ RELS_EXT = '''<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 def ingest_manuscript(file_path):
     # Queries repository and gets the next available pid in the coccc
     # namespace
-    new_pid = common.repository.api.ingest(text=None,
-                                           namespace="coccc")
+    new_pid = common.repository.api.ingest(text=None)    
     # Opens up the mods.xml from the directory
     mods = etree.XML(open(os.path.join(file_path,"mods.xml"),'rb').read())
+    # Extracts title to set as Fedora Object's label
+    title_element = mods.find("{{{0}}}titleInfo/{{{0}}}title".format(common.MODS_NS))
+    common.repository.api.modifyObject(pid=new_pid,
+                                       label=title_element.text,
+                                       ownerId=FEDORA_USER,
+                                       state="A")
     # Adds MODS datastream to the new object
     common.repository.api.addDatastream(pid=new_pid,
                                         dsID="MODS",
@@ -38,14 +43,21 @@ def ingest_manuscript(file_path):
     
     for filename in manuscript_files:
         file_root,file_ext = os.path.splitext(filename)
-        if file_ext != "xml": 
-            content = open(os.path.join(file_path,filename),"rb").read().encode("base64")
+        if file_ext != ".xml": 
+            content = open(os.path.join(file_path,filename),"rb").read()
+            # Weird bug in Fedora doesn't recognize image/pjpeg for .jpg
+            # files, manually sets mime_type to image/jpeg
+            mime_type = mimetypes.guess_type(filename)[0]
+            if file_ext == ".jpg":
+                mime_type = "image/jpeg"
             result = common.repository.api.addDatastream(pid=new_pid,
-                                                dsID=filename,
-                                                dsLabel=file_root,
-                                                mimeType="image/jpeg",
-                                                content=content)
-            print("...tried to add {0}, result={1}".format(filename,result))
+                                                         controlGroup="M",
+                                                         dsID=filename,
+                                                         dsLabel=file_root,
+                                                         mimeType=mime_type,
+                                                         content=content)
+            print("...tried to add {0} to {1}".format(filename,
+                                                      new_pid))
     # finally, add RELS-EXT datastream
     rels_ext_template = Template(RELS_EXT)
     rels_ext = rels_ext_template.render(object_pid=new_pid,

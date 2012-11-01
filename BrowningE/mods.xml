@@ -1,15 +1,17 @@
+<?xml version="1.0"?>
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
  <mods:titleInfo>
-    <mods:title>Addison, Joseph. (1672-1719)</mods:title>
+    <mods:title>Browning, Elizabeth Barrett. (1806-1861)</mods:title>
  </mods:titleInfo>
  <mods:name type="personal">
-    <mods:namePart>Addison, Joseph</mods:namePart>
+    <mods:namePart>Browning, Elizabeth Barrett.</mods:namePart>
     <mods:role>
       <mods:roleTerm authority="marcrelator" type="text">creator</mods:roleTerm>
     </mods:role>
  </mods:name>
  <mods:abstract>
-  This item is part of the Alice Bemis Taylor Collection of Autographs (Ms 0145). Taylor (1877-1942) was the first woman trustee of Colorado College.
+  This item is part of the Alice Bemis Taylor Collection of Autographs (Ms 0145). 
+  Taylor (1877-1942) was the first woman trustee of Colorado College.
  </mods:abstract>
  <mods:typeOfResource manuscript="yes">text</mods:typeOfResource>
  <mods:physicalDescription>
@@ -19,17 +21,11 @@
  </mods:physicalDescription>
  <mods:subject>
     <mods:name type="personal">
-     <mods:namePart>Addison, Joseph. (1672-1719)</mods:namePart>
+     <mods:namePart>Browning, Elizabeth Barrett. (1806-1861)</mods:namePart>
     </mods:name>
  </mods:subject>
  <mods:subject>
-  <mods:topic>autograph (handwritten) letter</mods:topic>
- </mods:subject>
- <mods:subject>
   <mods:topic>autograph letter, signed</mods:topic>
- </mods:subject>
- <mods:subject>
-  <mods:topic>image of author</mods:topic>
  </mods:subject>
  <mods:accessCondition type="useAndReproduction">Copyright restrictions apply. Contact Colorado College Special Collections for permission to publish.</mods:accessCondition>
  <mods:recordInfo>
