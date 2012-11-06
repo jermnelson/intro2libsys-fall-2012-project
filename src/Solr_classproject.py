@@ -2,11 +2,13 @@ __author__= "Claire L Mattoon, Johnny Edward, Eric Ziecker"
 
 import common
 import xml.etree.ElementTree as etree
+import sunburnt
+Solr_server = sunburnt.SolrInterface("http://0.0.0.0:8984/solr/marc_catalog/")
 
 FIELDNAMES = [
     'access', # Should have a constant value of "Online"
     'author', #namePart
-    'bib_id', # Pid
+    'bib_num', # Pid
     'contents', # Should be all of the text of a transcription (if present)
     'format', #! Incorrect this should not be a subject
     'full_title', #title
@@ -87,7 +89,7 @@ def index_manuscript(pid):
 
     mods = get_mods(pid)
     Solr_doc = {'access':'Online',
-                'bib_id':pid,
+                'bib_num':pid,
                 'format':'Manuscript',
                 'location':'dacc',
                 'id':pid}
@@ -99,3 +101,4 @@ def index_manuscript(pid):
     Solr_doc['notes'] = Solr_doc['summary']
     Solr_doc['personal_name'] = Solr_doc['author']
     Solr_doc['url'] = get_url(mods)
+    Solr_server.add(Solr_doc)
